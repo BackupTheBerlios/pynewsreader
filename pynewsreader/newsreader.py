@@ -9,7 +9,16 @@ from sys import exit, argv
 from getpass import getpass
 from socket import error
 
-class NewsReader:
+class PostNews:
+    pass
+
+class ListGroups:
+    pass
+
+class ReadNews:
+    pass
+
+class News:
 
     def __init__(self, server, newsgroup, user=None, password=None, port='119'):
         self.server = server
@@ -72,7 +81,7 @@ def main():
         newsgroup = argv[2]
         user = argv[3]
         password = getpass('Password: ')
-        news = NewsReader(server, newsgroup, user, password, port='119')
+        news = News(server, newsgroup, user, password, port='119')
         news.run()
         
     except IndexError:
