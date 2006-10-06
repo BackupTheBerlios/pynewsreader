@@ -1,0 +1,20 @@
+-----------------------------
+CHANGELOG:
+-----------------------------
+
+== 06 Oct 2006 ==
+
+Create cvs repository (leonardo@riseup.net)
+ * http://developer.berlios.de/projects/pynewsreader/
+
+Initial import (leonardo@riseup.net)
+ * newsreader.py
+ * config.py
+ * TODO
+ * LICENSE
+ * AUTHORS
+ * CHANGELOG
+
+Create mailing list (leonardo@riseup.net)
+ * https://lists.berlios.de/mailman/listinfo/pynewsreader-commits
+
