@@ -1,0 +1,11 @@
+
+-----------------------------
+TODO:
+-----------------------------
+
+1. Imprimir lista de todos os grupos do servidor
+2. Se o grupo for privado, se inscrever
+3. Envio de novas mensagens ao grupo
+4. Leitura de mensagens criptografadas (SSL)
+5. Suporte a unicode para o conteúdo das mensagens
+
