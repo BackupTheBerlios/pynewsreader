@@ -77,9 +77,11 @@ class News:
 
 def main():
     try:
+        # for arg in argv[1:]:
         server = argv[1]
         newsgroup = argv[2]
         user = argv[3]
+        # header = '-h'; header = True 
         password = getpass('Password: ')
         news = News(server, newsgroup, user, password, port='119')
         news.run()
